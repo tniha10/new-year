@@ -1,0 +1,424 @@
+/* ---------- Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #070211;
+  padding-top: 50px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 120px;
+}
+
+/* ---------- Reusable text styles ---------- */
+.label {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ff0000;
+}
+
+.heading {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.para {
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.btn {
+  display: inline-block;
+  background: #ff0000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+/* ---------- Banner ---------- */
+.banner {
+  margin-top: 0;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0)),
+              url("images/Banner Image.png") center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.banner p {
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.banner h1 {
+  width: 632px;
+  margin-top: 16px;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* ---------- 65% OFF ---------- */
+.deals {
+  text-align: center;
+}
+
+.deals h2 {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  color: #ff0000;
+}
+
+.deals .label {
+  margin-top: 48px;
+}
+
+.deals h3 {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.deals img {
+  width: 803px;
+  height: 500px;
+  margin: 48px auto 0;
+}
+
+/* ---------- Midnight party ---------- */
+.party {
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0)),
+              url("images/Vectorrr.png") center / cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 138px 0 126px;
+  color: #fff;
+}
+
+.party-text {
+  width: 697px;
+}
+
+.party h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7px;
+  white-space: nowrap;
+}
+
+.party p {
+  margin: 24px 0 32px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.party img {
+  width: 320px;
+  height: 465px;
+}
+
+/* ---------- Event details ---------- */
+.event {
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  padding-top: 100px;
+  text-align: center;
+}
+
+.event p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 48px;
+}
+
+/* ---------- Coming soon ---------- */
+.coming {
+  height: 463px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.coming-left {
+  width: 393px;
+  margin-top: 104px;
+  margin-right: 70px;
+}
+
+.coming-left .heading {
+  margin-top: 16px;
+}
+
+.coming-left .para {
+  margin-top: 22px;
+}
+
+.circle {
+  width: 463px;
+  height: 463px;
+  margin-right: 118px;
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  padding: 34px;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.coming-right {
+  width: 276px;
+  margin-top: 112px;
+}
+
+.coming-right h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #ff0000;
+}
+
+.coming-right .para {
+  margin-top: 16px;
+}
+
+.coming-right img {
+  width: 140px;
+  height: 140px;
+  margin-top: 43px;
+}
+
+/* ---------- Holidays sale ---------- */
+.sale-text {
+  width: 1068px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sale-text h2 {
+  margin-top: 16px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 91px;
+}
+
+.sale-text .para {
+  margin-top: 28px;
+  font-weight: 500;
+}
+
+.gift-area {
+  position: relative;
+  height: 662px;
+  margin-top: 64px;
+}
+
+.red-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 229px;
+  background: #ff0000;
+  border-radius: 16px 0 16px 16px;
+}
+
+.gift {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 796px;
+}
+
+.badge {
+  position: absolute;
+  top: 77px;
+  left: 974px;
+  width: 307px;
+}
+
+/* ---------- Portfolio ---------- */
+.portfolio .heading {
+  margin-top: 16px;
+}
+
+.portfolio .para {
+  width: 896px;
+  margin-top: 22px;
+}
+
+.grid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 424px);
+  gap: 24px;
+}
+
+.grid img {
+  width: 424px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* ---------- Newsletter ---------- */
+.newsletter {
+  height: 616px;
+  padding-top: 80px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+
+.newsletter img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.newsletter .heading {
+  margin-top: 40px;
+}
+
+.newsletter .para {
+  width: 896px;
+  margin: 22px auto 0;
+}
+
+.newsletter form {
+  width: 648px;
+  height: 72px;
+  margin: 48px auto 0;
+  display: flex;
+}
+
+.newsletter input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  border-radius: 50px 0 0 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #070211;
+}
+
+.newsletter input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+}
+
+.newsletter button {
+  width: 210px;
+  border: none;
+  background: #ff0000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  margin-top: 120px;
+  height: 609px;
+  background: #070211;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-top {
+  height: 250px;
+  padding: 120px 135px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top p {
+  line-height: 40px;
+}
+
+.footer-top ul {
+  width: 251px;
+  list-style: none;
+}
+
+.footer-top li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-top li img {
+  width: 24px;
+  height: 24px;
+}
+
+.social {
+  height: 161px;
+  padding-top: 47px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social img {
+  width: 64px;
+  height: 64px;
+}
+
+.copyright {
+  padding-top: 49px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 29px;
+}
